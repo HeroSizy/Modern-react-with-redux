@@ -28,7 +28,9 @@ build/Release
 node_modules
 
 
-Book/yarn\.lock
+yarn\.lock
 
-.idea
 # WebStorm
+.idea
+
+.DS_Store

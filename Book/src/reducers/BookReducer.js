@@ -14,10 +14,10 @@ const BookReducer = (state, action) => {
             )
         default:
             return [
-                {title: 'Harry Potter'},
-                {title: 'JavaScript: The Good Part'},
-                {title: 'The Dark Tower'},
-                {title: 'Eloquent Ruby'}
+                {title: 'Harry Potter', pages: 101},
+                {title: 'JavaScript: The Good Part', pages: 34},
+                {title: 'The Dark Tower', pages: 87},
+                {title: 'Eloquent Ruby', pages: 1}
             ];
     }
 };
