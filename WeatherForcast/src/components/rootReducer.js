@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import SearchBarReducer from './SearchBar/SearchBarReducer'
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+    weather: SearchBarReducer
 });
 
 export default rootReducer;
