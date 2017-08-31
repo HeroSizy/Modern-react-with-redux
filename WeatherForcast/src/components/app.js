@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import SearchBar from './SearchBar/SearchBar'
-import WeatherList from './WeatherList/WeatherList'
+import SearchBar from './components/SearchBar/SearchBar'
+import WeatherList from './components/WeatherList/WeatherList'
 
 export default class App extends Component {
   render() {
